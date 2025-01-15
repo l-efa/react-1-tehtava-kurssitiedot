@@ -44,7 +44,7 @@ const Part = (props) => {
 const Total = (props) => {
   return (
     <p>
-      Numbe of exercises{": "}
+      Number of exercises{": "}
       {props.exercises[0] + props.exercises[1] + props.exercises[2]}
     </p>
   );
